@@ -2,9 +2,12 @@
 
 ## 📂 Dataset Source  
 I used the **Customer Segmentation dataset** from Kaggle:  
-🔗 [Customer Segmentation Dataset](https://www.kaggle.com/code/fabiendaniel/customer-segmentation/data)  
+🔗 [Customer Segmentation Dataset](https://www.kaggle.com/code/fabiendaniel/customer-segmentation/input)  
 
 **Size:** ~401k customer records, 8 features  
+
+👉 The raw dataset is available on Kaggle.  
+👉 A **cleaned Excel dataset** is included in this repository: `CleanData.xlsx`  
 
 ---
 
@@ -55,14 +58,18 @@ The Power BI dashboard includes:
 ---
 
 ## 📂 How to Use  
-- Download the Power BI file: **`CustomerChurnAnalysis.pbix`** (included in this repo)  
-- Open it using **Microsoft Power BI Desktop**  
-- Explore the interactive dashboard and insights  
+1. Download this repository  
+2. Open **`CustomerChurnAnalysis.pbix`** in **Microsoft Power BI Desktop**  
+3. Load the cleaned dataset: **`CleanData.xlsx`** (already included in repo)  
+4. Explore the interactive dashboard and insights  
+
+👉 If you want to work with the **original raw dataset**, download it from Kaggle:  
+🔗 [Customer Segmentation Dataset](https://www.kaggle.com/code/fabiendaniel/customer-segmentation/input)  
 
 ---
 
 ## ⚙️ Tools Used  
 - Power BI (data modeling, DAX, visualization)  
-- Excel / CSV as data source  
+- Excel (data cleaning & preprocessing)  
 
 ---
